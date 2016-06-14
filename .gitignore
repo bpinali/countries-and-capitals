@@ -1,0 +1,4 @@
+
+*.codekit
+
+app/scripts/min/main-min.js
