@@ -1,4 +1,4 @@
-angular.module('capitalApp', ['DataServices', 'Data', 'ngRoute', 'ngAnimate'])
+angular.module('capitalApp', ['ngRoute', 'ngAnimate'])
 
 .config(['$locationProvider','$routeProvider',
   function($locationProvider, $routeProvider) {
