@@ -2,3 +2,9 @@
 *.codekit
 
 app/scripts/min/main-min.js
+
+app/scripts/factories/min/api-min.js
+
+app/scripts/factories/min/data-min.js
+
+app/scripts/min/controllers-min.js

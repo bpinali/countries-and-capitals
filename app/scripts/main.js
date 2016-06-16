@@ -1,4 +1,4 @@
-angular.module('capitalApp', ['ngRoute', 'ngAnimate'])
+angular.module('capitalApp', ['apiDataService', 'dataCompile', 'ngRoute', 'ngAnimate'])
 
 .config(['$locationProvider','$routeProvider',
   function($locationProvider, $routeProvider) {
@@ -8,11 +8,11 @@ angular.module('capitalApp', ['ngRoute', 'ngAnimate'])
       })
       .when("/countries", {
         templateUrl: "./partials/countries.html",
-        controller: "countriesController",
+        controller: "countriesCtrl",
       })
       .when("/countries/:countryCode", {
         templateUrl: "./partials/details.html",
-        controller: "detailsController",
+        controller: "detailsCtrl",
       })
       .otherwise({
          redirectTo: '/home'

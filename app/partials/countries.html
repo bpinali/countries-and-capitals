@@ -1,4 +1,4 @@
-<div class="col-md-8 col-md-offset-2">
+<div class="col-md-10 col-md-offset-1">
     <label>Search by Country Name:
         <input type="text">
     </label>
@@ -12,14 +12,14 @@
             <th>Population</th>
             <th>Continent</th>
         </tr>
-        <tr>
-            <td>Afghanistan</td>
-            <td>AF</td>
-            <td>Kabul</td>
-            <td>647,500</td>
-            <td>29,122,123</td>
-            <td>Asia</td>
+        <tr ng-repeat="country in countries">
+            <td>{{country.countryName}}</td>
+            <td>{{country.countryCode}}</td>
+            <td>{{country.capital}}</td>
+            <td>{{(country.areaInSqKm) | number}}</td>
+            <td>{{(country.population) | number}}</td>
+            <td>{{country.continentName}}</td>
         </tr>
     </table>
-    <button type="button" class="btn">Home</button>
+    <a href="#/home" class="btn btn-lg btn-default">Return Home</a>
 </div>
