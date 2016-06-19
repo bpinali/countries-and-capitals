@@ -21,6 +21,7 @@ li {
 }
 img {
   max-height: 400px;
+  margin: 12px 0px 12px 0px;
 }
 .flag {
   width: 100%;
