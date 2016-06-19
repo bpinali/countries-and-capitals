@@ -19,6 +19,10 @@ li {
   margin-right: 14px;
   font-size: 18px;
 }
+.country-details-table {
+  font-size: 18px;
+  margin-top: 35px;
+}
 img {
   max-height: 400px;
   margin: 12px 0px 12px 0px;
