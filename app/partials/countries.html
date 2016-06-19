@@ -1,7 +1,4 @@
 <div class="col-md-10 col-md-offset-1">
-    <label>Search by Country Name:
-        <input type="text">
-    </label>
 
     <table class="table table-striped table-hover">
         <tr>
@@ -12,7 +9,7 @@
             <th>Population</th>
             <th>Continent</th>
         </tr>
-        <tr ng-repeat="country in countries">
+        <tr ng-repeat="country in countries" ng-click="showDetail(country)">
             <td>{{country.countryName}}</td>
             <td>{{country.countryCode}}</td>
             <td>{{country.capital}}</td>

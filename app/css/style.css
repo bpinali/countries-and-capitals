@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: 'Istok Web', sans-serif;
 }
@@ -10,4 +11,20 @@ h2 {
 p {
   font-size: 18px;
   margin: 24px 0px 24px 0;
+}
+
+/* Details Page Styles */
+li {
+  display: inline-block;
+  margin-right: 14px;
+  font-size: 18px;
+}
+img {
+  max-height: 400px;
+}
+.flag {
+  width: 100%;
+}
+.details-buttons {
+  margin: 50px 0px 50px 0px;
 }
